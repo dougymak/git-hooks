@@ -1,9 +1,11 @@
+# phpcs
+
 # path to phpcs "binary"
-PHPCS_BIN=/usr/bin/phpcs
+PHPCS_BIN=/Applications/XAMPP/xamppfiles/bin/phpcs
 
 # the coding standard, you can also specify a path to your own standard here 
 # e. g. /path/to/my/standard/dir/
-PHPCS_CODING_STANDARD=PEAR
+PHPCS_CODING_STANDARD=Zend
 
 # comma-separated list of file patterns being ignored
 PHPCS_IGNORE=
@@ -16,3 +18,15 @@ PHPCS_IGNORE_WARNINGS=1
 
 # encoding
 PHPCS_ENCODING=utf-8
+
+
+# phpmd
+
+# path to phpmd
+PHPMD_BIN=/Applications/XAMPP/xamppfiles/bin/phpmd
+
+# format for the output response
+PHPMD_FORMAT=text 
+
+# the rule sets (commad-seperated)
+PHPMD_RULESET=codesize,unusedcode,naming
