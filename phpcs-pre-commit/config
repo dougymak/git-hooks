@@ -5,7 +5,7 @@ PHPCS_BIN=/Applications/XAMPP/xamppfiles/bin/phpcs
 
 # the coding standard, you can also specify a path to your own standard here 
 # e. g. /path/to/my/standard/dir/
-PHPCS_CODING_STANDARD=Zend
+PHPCS_CODING_STANDARD=PEAR
 
 # comma-separated list of file patterns being ignored
 PHPCS_IGNORE=
