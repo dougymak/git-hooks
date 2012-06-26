@@ -130,7 +130,7 @@ fi
 # delete temporary copy of staging area
 rm -rf $TMP_STAGING
 
-if [ $RETVALCS -ne 0 ] && [ $RETVALMD -ne 0 ]; then
+if [ $RETVALCS -ne 0 ] || [ $RETVALMD -ne 0 ]; then
   exit 1
 else 
   exit 0
